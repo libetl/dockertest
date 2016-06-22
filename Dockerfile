@@ -3,4 +3,4 @@ WORKDIR /home/app
 COPY . $WORKDIR
 RUN mvn install
 EXPOSE 8080
-CMD java -jar dockertest-1.0-SNAPSHOT.jar
+CMD java -jar target/dockertest-1.0-SNAPSHOT.jar
